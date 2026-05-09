@@ -1,32 +1,54 @@
-# Prerequisites
-*.d
+# Visual Studio 临时文件与输出目录
+.vs/
+Debug/
+Release/
+x64/
+x86/
+Bin/
+Obj/
+ipch/
+build/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# 编译/链接输出
+*.exe
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.so
 *.a
 *.lib
+*.obj
+*.o
+*.ilk
+*.pdb
+*.exp
+*.idb
+*.ipdb
+*.iobj
+*.pch
+*.res
+*.resources
+*.tlb
+*.tlh
 
-# Executables
-*.exe
-*.out
-*.app
+# 用户/调试缓存
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.ncb
+*.opt
+*.plg
+*.psess
+*.vsp
+*.vspx
+*.tmp
+*.log
+
+# 其他杂项
+*.pidb
+*.scc
+*.svclog
+*.cachefile
+*.csproj.user
+*.vbproj.user
